@@ -30,7 +30,7 @@ const Card = ({ card }) => {
         <div className="validThrueContainer">
           <span className="validThruSpan">VALID THRU</span>
 
-          <span> {validThru}</span>
+          <span className="validDate"> {validThru}</span>
         </div>
       </div>
     </>

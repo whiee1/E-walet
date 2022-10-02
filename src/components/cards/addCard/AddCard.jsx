@@ -80,7 +80,7 @@ const AddCard = () => {
           type="text"
           id="valid"
           onChange={(event) => onChangeHandler("validThru", event)}
-          maxLength={4}
+          maxLength={5}
           placeholder="MM/ÅÅ"
           value={card.validThru}
         />
